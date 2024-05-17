@@ -1,11 +1,23 @@
 .{
-    .name = "raylib-zig",
-    .version = "0.1.1",
+    .name = "zigsteroids",
+    .version = "0.0.1",
     .dependencies = .{
-        .raylib = .{
-            .url = "https://github.com/raysan5/raylib/archive/5.0.tar.gz",
-            .hash = "1220c28847ca8e8756734ae84355802b764c9d9cf4de057dbc6fc2b15c56e726f27b",
+        .@"raylib-zig" = .{
+            .url = "git+https://github.com/Not-Nik/raylib-zig.git#ae533ad60fa31e5fc4fe4c4551002305f85c397e",
+            .hash = "1220fa78e6bd9eae16393b1d842ba653445e7863589c39874ff1e1e9a3ff2b78e53b",
         },
     },
-    .paths = .{""},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.txt",
+        "asteroid.wav",
+        "bloop_hi.wav",
+        "bloop_lo.wav",
+        "explode.wav",
+        "shoot.wav",
+        "thrust.wav",
+    },
 }
