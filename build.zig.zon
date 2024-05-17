@@ -13,5 +13,11 @@
         "src",
         "LICENSE",
         "README.txt",
+        "asteroid.wav",
+        "bloop_hi.wav",
+        "bloop_lo.wav",
+        "explode.wav",
+        "shoot.wav",
+        "thrust.wav",
     },
 }
